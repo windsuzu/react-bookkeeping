@@ -86,24 +86,24 @@
 
 ### **⚙️ JSX Components**
 
-- Props
-- Styling
-- Composition
-- Wrapper Component
+- **Props** e.g. [[parent component]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Expenses/ExpensesList.js#L13-L18) [[child component]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Expenses/ExpenseItem.js#L6-L18)
+- **Global Styling** e.g. [[stylesheet]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Expenses/Expenses.css#L1-L8) [[import]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Expenses/Expenses.js#L6)
+- **Composition** e.g. [[Expenses.js]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Expenses/Expenses.js#L21-L28)
+- **Wrapper Component** e.g. [[Card.js]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/UI/Card.js#L4-L6)
 
 ### **🚥 State and Event**
 
-- useState
-- EventHandler
-- Two-way Binding
-- Bottom-up Communication
-- State Lifting
+- **useState** e.g. [[filteredYear]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Expenses/Expenses.js#L9)
+- **EventHandler** e.g. [[filterChangeHandler]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Expenses/ExpensesFilter.js#L5)
+- **Bottom-up Communication** e.g. [[parent component]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Expenses/Expenses.js#L24) [[child component]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Expenses/ExpensesFilter.js#L5)
+- **Two-way Binding** e.g. [[ExpensesFilter]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Expenses/Expenses.js#L22-L25)
+- **State Lifting** e.g. [[add new expense]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/App.js#L33-L44)
 
 ### **💪 Flexible design**
 
-- List Rendering
-- Conditional Content
-- Dynamic Styles
+- **List Rendering** e.g. [[expenses list]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Expenses/ExpensesList.js#L12-L19)
+- **Conditional Content** e.g. [[new expense panel]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/NewExpense/NewExpense.js#L21-L35)
+- **Dynamic Styles** e.g. [[chart bar]](https://github.com/windsuzu/react-bookkeeping/blob/main/src/components/Chart/ChartBar.js#L5-L16)
 
 ## Preview
 
