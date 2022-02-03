@@ -1,70 +1,145 @@
-# Getting Started with Create React App
+<!--
+*** Thanks for checking out the react-bookkeeping. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** github_username (that is "windsuzu"), repo_name (that is "react-bookkeeping"), project_title, project_description
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- [![Issues][issues-shield]][issues-url] -->
+<!-- [![PR Welcome][pr-welcome-shield]](#contributing) -->
+[![Contributors][contributors-shield]][contributors-url]
+[![MIT License][license-shield]][license-url]
+[![Author][author-shield]][author-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://windsuzu.github.io/react-bookkeeping">
+    <img src="public/logo.png" alt="Bookkeeping icons created by Freepik - Flaticon" width="80" height="80">
+  </a>
 
-### `npm start`
+  <h3 align="center">React Bookkeeping</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <p align="center">
+    A bookkeeping application built with react.js. 
+    <br />
+    <a href="https://windsuzu.github.io/react-bookkeeping">View Demo</a>
+    ·
+    <a href="https://github.com/windsuzu/react-bookkeeping/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/windsuzu/react-bookkeeping/issues">Request Feature</a>
+  </p>
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<details>
+<summary>Table of Contents</summary>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [About](#about)
+* [Getting Started](#getting-started)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
-### `npm run build`
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- ABOUT THE PROJECT -->
+## About
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<table>
+<tr>
+<td>
 
-### `npm run eject`
+**[DEMO]** : https://windsuzu.github.io/react-bookkeeping
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**React BookKeeping** 展示 react.js 的最基本核心概念。 主要有三大基礎概念：
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**1)** JSX component 的相關概念，例如 `props`, `styling`, `composition`。 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**2)** State 和 Event 的相關概念，例如 `useState`, `eventHandler`, `two-way binding`, `bottom-up communication`, `state lifting`。
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**3)** 彈性化設計的相關概念，例如 `stateful list`, `conditional content`, `dynamic styles`
 
-## Learn More
+**Built With**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* HTML5, CSS3, Javascript ES6
+* React.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+</td>
+</tr>
+</table>
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Features
 
-### Analyzing the Bundle Size
+### **⚙️ JSX Components**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Props
+- Styling
+- Composition
+- Wrapper Component
 
-### Making a Progressive Web App
+### **🚥 State and Event**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- useState
+- EventHandler
+- Two-way Binding
+- Bottom-up Communication
+- State Lifting
 
-### Advanced Configuration
+### **💪 Flexible design**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- List Rendering
+- Conditional Content
+- Dynamic Styles
 
-### Deployment
+## Preview
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="center">
+  <img src="images/web/1.png" width=68%>
+  <img src="images/phone/1.png" width=22%>
+</p>
+<p align="center">
+  <img src="images/web/2.png" width=68%>
+  <img src="images/phone/2.png" width=22%>
+</p>
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Distributed under the MIT License. See [LICENSE](https://github.com/windsuzu/react-bookkeeping/blob/main/LICENSE) for more information.
+
+## Contact
+
+Reach out to the maintainer at one of the following places:
+
+* [GitHub discussions](https://github.com/windsuzu/react-bookkeeping/discussions)
+* The email which is located [in GitHub profile](https://github.com/windsuzu)
+
+
+## Acknowledgements
+
+* [Maximilian Schwarzmüller](https://www.udemy.com/user/maximilian-schwarzmuller/)
+
+[contributors-shield]: https://img.shields.io/github/contributors/windsuzu/react-bookkeeping.svg?style=for-the-badge
+[contributors-url]: https://github.com/windsuzu/react-bookkeeping/graphs/contributors
+[issues-shield]: https://img.shields.io/github/issues/windsuzu/react-bookkeeping.svg?style=for-the-badge
+[issues-url]: https://github.com/windsuzu/react-bookkeeping/issues
+[license-shield]: https://img.shields.io/github/license/windsuzu/react-bookkeeping.svg?style=for-the-badge&label=license
+[license-url]: https://github.com/windsuzu/react-bookkeeping/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/windsuzu
+[pr-welcome-shield]: https://shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge
+[author-shield]: https://shields.io/badge/Made_with_%E2%9D%A4_by-windsuzu-F4A92F?style=for-the-badge
+[author-url]: https://github.com/windsuzu
