@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-bookkeeping/static/css/main.ef6bb0ae.css",
+    "main.js": "/react-bookkeeping/static/js/main.f32aa950.js",
+    "index.html": "/react-bookkeeping/index.html",
+    "main.ef6bb0ae.css.map": "/react-bookkeeping/static/css/main.ef6bb0ae.css.map",
+    "main.f32aa950.js.map": "/react-bookkeeping/static/js/main.f32aa950.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef6bb0ae.css",
+    "static/js/main.f32aa950.js"
+  ]
+}
