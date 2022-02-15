@@ -41,11 +41,11 @@
 <summary>Table of Contents</summary>
 
 * [About](#about)
-* [Getting Started](#getting-started)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
+* [Examples](#examples)
+  * [**⚙️ JSX Components**](#️-jsx-components)
+  * [**🚥 State and Event**](#-state-and-event)
+  * [**💪 Flexible design**](#-flexible-design)
+* [Preview](#preview)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -61,20 +61,21 @@
 <tr>
 <td>
 
-**[DEMO]** : https://windsuzu.github.io/react-bookkeeping
+**React BookKeeping** 展示 react.js 的基本核心概念。主要可以分為三個方向：
 
-**React BookKeeping** 展示 react.js 的最基本核心概念。 主要有三大基礎概念：
-
-**1)** JSX component 的相關概念，例如 `props`, `styling`, `composition`。 
-
-**2)** State 和 Event 的相關概念，例如 `useState`, `eventHandler`, `two-way binding`, `bottom-up communication`, `state lifting`。
-
-**3)** 彈性化設計的相關概念，例如 `stateful list`, `conditional content`, `dynamic styles`
+1. JSX component 的相關概念
+   * 例如 `props`, `styling`, `composition`
+2. State 和 Event 的相關概念
+   * 例如 `useState`, `eventHandler`, `two-way binding`, `bottom-up communication`, `state lifting`
+3. 彈性化設計的相關概念
+   * 例如 `stateful list`, `conditional content`, `dynamic styles`
 
 **Built With**
 
 * HTML5, CSS3, Javascript ES6
 * React.js
+
+**[DEMO]** : https://windsuzu.github.io/react-bookkeeping
 
 </td>
 </tr>
@@ -82,7 +83,7 @@
 
 ---
 
-## Features
+## Examples
 
 ### **⚙️ JSX Components**
 
